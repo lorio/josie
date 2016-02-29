@@ -1,0 +1,62 @@
+// Headings
+// --------------------------------------------------
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+h1 { 
+  //font-size: 30px;
+  color: $brand-color;
+  font-weight: 500;
+  font-family: "casablanca-urw", sans-serif; 
+}
+h2,
+h3 {
+  color: $text-color; 
+  font-weight: 300;
+  
+}
+
+h5 { 
+  font-size: 12px;
+  font-family: $headings-font;
+}
+h6 { font-size: 11px; }
+
+
+// Body text
+// --------------------------------------------------
+
+small {
+  font-size: 90%;
+}
+
+.text-emphasized {
+  font-weight: bold;
+  color: #333;
+}
+
+.text-small {
+  font-size: 12px;
+}
+.icon {
+  width: 1em;
+  //height: 1em;
+  border: none;
+  margin-bottom: -.1em;
+}
+pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-family: europa, sans-serif;
+  font-weight: bold;
+}
