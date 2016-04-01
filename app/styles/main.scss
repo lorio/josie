@@ -10,7 +10,8 @@
 @import "partials/type";
 @import "partials/layout";
 @import "partials/utility";
-//@import "partials/fancybox";
+//@import "partial/simplelightbox";
+//@import "partials/components";
 //@import "partials/modal";
 
 
@@ -51,8 +52,9 @@ header {
   }
 } */
 img {
-  border: 1px solid $brand-color;
-  margin-left: 25px;
+  //border: 1px solid $brand-color;
+  border: 0;
+  //margin-left: 25px;
 }
 /* figcaption {
   text-align: center;
@@ -85,6 +87,7 @@ footer {
     width: 100%;
     height: auto;
     margin-left: 0;
+    pointer-events: none;
   }
   .column {
     float: none;

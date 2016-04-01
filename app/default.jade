@@ -12,24 +12,22 @@ html.no-js(lang='en')
     script.
       try{Typekit.load({ async: true });}catch(e){}
 
+    // build:css styles/vendor.css
+    // bower:css
+    // endbower
+    // endbuild
+
     // build:css styles/main.css
     link(rel='stylesheet' href='styles/main.css')
     // endbuild
-
-    // build:css styles/vendor.css
-    // bower:css
-    link(rel='stylesheet' href='../bower_components/lightbox2/dist/css/lightbox.min.css')
-    // endbower
-    // endbuild  
     
     // build:js scripts/vendor/modernizr.js
     script(src='../bower_components/modernizr/modernizr.js')
-    // endbuild
-    
-    // build:js scripts/vendor/jquery/dist/jquery.min.js
+      // endbuild
+      // build:js scripts/vendor/jquery/dist/jquery.min.js
     script(src='../bower_components/jquery/dist/jquery.min.js')
-    //endbuild
-
+      //endbuild
+  
   body
     | <!--[if lt IE 10]>
     |   <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -54,9 +52,9 @@ html.no-js(lang='en')
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
       ga('create','UA-XXXXX-X');ga('send','pageview');
 
-    // build:js scripts/vendor/lightbox2/dist/js/lightbox.min.js
-    script(src='../bower_components/lightbox2/dist/js/lightbox.min.js')
-    //endbuild
+    // build:js scripts/magnific.js
+    script(src='scripts/magnific.js')
+    // endbuild
 
     // build:js scripts/main.js
     script(src='scripts/main.js')

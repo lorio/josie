@@ -3,10 +3,11 @@
   "main": [
     "scripts/main.js",
     "styles/main.css"
-    ],
+  ],
   "dependencies": {
-    "jquery": "~2.1.1",
-    "modernizr": "~2.8.1"
+    "jquery": "2.1.4",
+    "modernizr": "~2.8.1",
+    "lightbox2": "^2.8.2"
   },
   "authors": "lorio",
   "license": "MIT",
@@ -17,5 +18,5 @@
     "test",
     "tests"
   ],
-  "private": true 
+  "private": true
 }
